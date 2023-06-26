@@ -1,10 +1,11 @@
 package render
 
 import (
+	"bookings/pkg/config"
+	"bookings/pkg/models"
 	"bytes"
 	"fmt"
-	"github.com/BloodsFa1zer/bookings/pkg/config"
-	"github.com/BloodsFa1zer/bookings/pkg/models"
+
 	"html/template"
 	"log"
 	"net/http"

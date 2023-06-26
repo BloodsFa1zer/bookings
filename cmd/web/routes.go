@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/BloodsFa1zer/bookings/pkg/config"
-	"github.com/BloodsFa1zer/bookings/pkg/handlers"
+	"bookings/pkg/config"
+	"bookings/pkg/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"net/http"

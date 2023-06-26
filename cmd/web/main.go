@@ -1,10 +1,11 @@
 package main
 
 import (
+	"bookings/pkg/config"
+	"bookings/pkg/handlers"
+	"bookings/pkg/render"
 	"fmt"
-	"github.com/BloodsFa1zer/bookings/pkg/config"
-	"github.com/BloodsFa1zer/bookings/pkg/handlers"
-	"github.com/BloodsFa1zer/bookings/pkg/render"
+	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"
 	"time"

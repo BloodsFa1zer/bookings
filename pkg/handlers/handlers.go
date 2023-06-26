@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/BloodsFa1zer/bookings/pkg/config"
-	"github.com/BloodsFa1zer/bookings/pkg/models"
-	"github.com/BloodsFa1zer/bookings/pkg/render"
+	"bookings/pkg/config"
+	"bookings/pkg/models"
+	"bookings/pkg/render"
 	"net/http"
 )
 
